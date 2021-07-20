@@ -4,7 +4,7 @@ import { Logo } from "./Logo";
 import { NavContent } from "./NavContent";
 
 export const Header = () => (
-  <Box minHeight="480px">
+  <Box maxHeight="10vh">
     <Box
       as="header"
       height="16"

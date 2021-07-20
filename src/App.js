@@ -1,9 +1,10 @@
-import { VStack, Text } from "@chakra-ui/react";
 import { Header } from "./Component/Header";
+import Sidebar from "./Component/Sidebar";
 function App() {
   return (
     <div>
       <Header />
+      <Sidebar />
     </div>
   );
 }
